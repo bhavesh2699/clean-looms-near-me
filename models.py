@@ -11,8 +11,8 @@ with engine.connect() as conn:
     conn.execute("""
         CREATE TABLE IF NOT EXISTS markers (
           id SERIAL PRIMARY KEY ,
-          name VARCHAR( 60 ) NOT NULL ,
-          address VARCHAR( 80 ) NOT NULL ,
+          name VARCHAR( 255 ) NOT NULL ,
+          address VARCHAR( 255 ) NOT NULL ,
           lat NUMERIC( 10, 6 ) NOT NULL ,
           lng NUMERIC( 10, 6 ) NOT NULL
          );
