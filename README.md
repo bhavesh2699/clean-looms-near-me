@@ -29,6 +29,8 @@ CREATE TABLE `markers` (
 # Populating the table
 You can import the marker data into the SQL database using the 'Import' functionality of the phpMyAdmin interface which allows you to import data in various formats.
 ```
+#### Made with :heart: by [Bhavesh Solanki](https://www.linkedin.com/in/bhavesh-solanki-02884717a)
+
 INSERT INTO `markers` (`id`, `name`, `address`, `lat`, `lng`) VALUES ('1','Heir Apparel','Crowea Pl, Frenchs Forest NSW 2086','-33.737885','151.235260');
 INSERT INTO `markers` (`id`, `name`, `address`, `lat`, `lng`) VALUES ('2','BeeYourself Clothing','Thalia St, Hassall Grove NSW 2761','-33.729752','150.836090');
 INSERT INTO `markers` (`id`, `name`, `address`, `lat`, `lng`) VALUES ('3','Dress Code','Glenview Avenue, Revesby, NSW 2212','-33.949448','151.008591');
